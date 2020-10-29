@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Web
+namespace Zee.AspNetCore.AdminLTE3.Web
 {
     public class Program
     {

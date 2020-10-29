@@ -1,6 +1,6 @@
 using System;
 
-namespace Web.Models
+namespace Zee.AspNetCore.AdminLTE3.Web.Models
 {
     public class ErrorViewModel
     {

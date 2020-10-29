@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Web.Data.Migrations
+namespace Zee.AspNetCore.AdminLTE3.Web.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {
