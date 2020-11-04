@@ -16,18 +16,20 @@
 <body class="hold-transition sidebar-mini">
 
     <div class="wrapper">
-        <partial name="_TopNavigation" />
+
+        @await Component.InvokeAsync("TopNavigation")
 
         <!-- Main Sidebar Container -->
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <partial name="_BrandLogo" />
-            <partial name="_MainNavigation" />
+            @await Component.InvokeAsync("MainNavigation")
+
         </aside>
 
         <div class="content-wrapper">
 
             <partial name="_Breadcrumb" />
-            
+
             <div class="content">
                 <div class="container-fluid">
                     @RenderBody()

@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>aspnet-Web-F4F39920-16AA-4C8B-968B-9EFCC0DC4B90</UserSecretsId>
+    <AssemblyName>Zee.AspNetCore.AdminLTE.Web</AssemblyName>
   </PropertyGroup>
 
 
