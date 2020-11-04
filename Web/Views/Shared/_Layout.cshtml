@@ -28,7 +28,7 @@
 
         <div class="content-wrapper">
 
-            <partial name="_Breadcrumb" />
+            @await Component.InvokeAsync("Breadcrumb", @ViewContext.RouteData.Values["Controller"])
 
             <div class="content">
                 <div class="container-fluid">

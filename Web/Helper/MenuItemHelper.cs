@@ -55,7 +55,8 @@ namespace Zee.AspNetCore.AdminLTE3.Web.Helpers
                 Name = "Dashboard V1",
                 Controller = "Dashboard",
                 DefaultAction = "Index",
-                Sort = 1
+                Sort = 1,
+                ParentMenuItem = dashboard
             };
             dashboard.SubItems.Add(dashboardV1);
 
@@ -66,7 +67,8 @@ namespace Zee.AspNetCore.AdminLTE3.Web.Helpers
                 Name = "Dashboard V2",
                 Controller = "Dashboard",
                 DefaultAction = "Index2",
-                Sort = 2
+                Sort = 2,
+                ParentMenuItem = dashboard
             };
             dashboard.SubItems.Add(dashboardV2);
 

@@ -22,6 +22,8 @@ namespace Zee.AspNetCore.AdminLTE3.Web.Models
         #endregion
 
         #region navigation properties
+        public MenuItem ParentMenuItem { get; set; }
+
         public ICollection<MenuItem> SubItems
         {
             get { return _items ?? (_items = new List<MenuItem>()); }
