@@ -8,7 +8,7 @@ namespace Zee.AspNetCore.AdminLTE3.Web.Controllers
     {
         public override void OnActionExecuted(ActionExecutedContext filterContext)
         {
-            
+
         }
     }
 }

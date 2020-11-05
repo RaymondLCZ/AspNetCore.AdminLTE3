@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Authorization;
 using Zee.AspNetCore.AdminLTE3.Web.Models;
 
 namespace Zee.AspNetCore.AdminLTE3.Web.Controllers
@@ -18,6 +19,7 @@ namespace Zee.AspNetCore.AdminLTE3.Web.Controllers
             _logger = logger;
         }
 
+        [AllowAnonymous]
         public IActionResult Index()
         {
             return View();
